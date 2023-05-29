@@ -1,0 +1,24 @@
+{
+  "name": "frases-estoicas",
+  "version": "1.0.0",
+  "description": "Paquete de NPM, que muestra alguna frase de un autor de la filosofía estoica cómo Marco Aurelio o Séneca de forma aleatoria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbertoesp/frases-estoicas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilbertoesp/frases-estoicas/issues"
+  },
+  "homepage": "https://github.com/gilbertoesp/frases-estoicas#readme",
+  "bin": {
+    "motivame-estoico": "./bin/global.js"
+  },
+  "preferGlobal": true
+}

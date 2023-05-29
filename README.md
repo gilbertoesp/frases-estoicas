@@ -2,8 +2,11 @@
 
 Paquete de NPM, que muestra alguna frase de un autor de la filosofía estoica cómo Marco Aurelio o Séneca de forma aleatoria.
 
-Este paquete se instala con 
+## Instalación
 
 ```npm install -g frases-estoicas```
 
-Se utiliza con el comando `motivame-estoico` en consola, lo cuál regresa una frase motivadora de la escuela del estoicismo.
+## Uso
+```motivame-estoico```
+
+Esto regresa en consola una frase de valor de la escuela del estoicismo.

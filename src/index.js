@@ -80,8 +80,6 @@ const getFrase = () => {
     console.log(`--${frase['autor']}`)
 }
 
-getFrase()
-
 module.exports = {
     getFrase
 }

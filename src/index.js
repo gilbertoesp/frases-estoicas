@@ -75,10 +75,12 @@ const frases = [{
   }]
 
 const getFrase = () => {
-    const frase = frases[Math.floor(Math.random() * messages.length)]
+    const frase = frases[Math.floor(Math.random() * frases.length)]
     console.log(`"${frase['contenido']}"`)
     console.log(`--${frase['autor']}`)
 }
+
+getFrase()
 
 module.exports = {
     getFrase
